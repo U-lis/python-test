@@ -1,0 +1,15 @@
+[flake8]
+ignore=
+    # Complexity check
+    C901,
+    # Linebreak before/after binary operator
+    W503, W504,
+    # continuation line over-indented for hanging indent
+    E126,
+exclude=
+    .git,
+    __pycache__,
+    .venv,
+    settings,
+    node_modules
+max-line-length=120
